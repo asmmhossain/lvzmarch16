@@ -77,11 +77,11 @@ body {
 	   -moz-hyphens: auto;
 	        hyphens: auto;
 
-	word-wrap: break-word;
+	word-wrap: Normal;
 }
 
 .reveal h1 { font-size: 3.77em; }
-.reveal h2 { font-size: 2.11em;	}
+.reveal h2 { font-size: 2.11em;	} /* original 2.11em */
 .reveal h3 { font-size: 1.55em;	}
 .reveal h4 { font-size: 1em;	}
 
@@ -233,9 +233,10 @@ body {
 }
 
 .reveal p {
-	margin-bottom: 10px;
-	line-height: 1.2em;
+	margin-bottom: 10px; /*original 10px */
+	line-height: 1.2em; /*original 1.2em */
 }
+
 
 .reveal q,
 .reveal blockquote {
